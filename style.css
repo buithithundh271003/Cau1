@@ -1,0 +1,83 @@
+.contianer{
+    background-image: url("background.png");
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    background-size: 100% auto;
+}
+img{
+    padding :2px;
+    width: 100px;
+    height: 20px;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    justify-content: center;
+    color: white; 
+    font-weight: bold;
+    padding-top: 10px;
+}
+.content-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-field {
+    margin-top: 25px;
+    height: 40px;
+    width: 800px;
+    border-color: orange;
+    border-width: 2px;
+    outline: none;
+    background-image: url("icon.png");
+    background-size: 30px;
+    background-position: 1% 50%;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+  }
+  
+  .small-text {
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  
+  .btn-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  
+  .cusBtn {
+    background-color: rgb(27, 103, 165);
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  
+  .no-ads {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .adsBtn {
+    background-color: rgb(47, 255, 71);
+    padding: 2px 15px;
+    font-size: 15px;
+    color: white;
+    border-radius: 2px;
+  }
+  
+  .arrowLeft {
+    background-image: url("arrowleft.svg");
+  
