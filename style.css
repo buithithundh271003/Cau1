@@ -1,7 +1,7 @@
 .contianer{
     background-image: url("background.png");
     background-color: black;
-    height: 600px;
+    height: 100vh;
     width: 100%;
     font-family: "Roboto", sans-serif;
   font-weight: 100;
